@@ -48,3 +48,4 @@ Agents are defined in `config.json` with:
 - `enabled`
 
 Add or remove agents by editing `config.json`.
+<img width="2150" height="972" alt="image" src="https://github.com/user-attachments/assets/4900bb30-8716-4c3a-b564-c7ad421822b7" />
