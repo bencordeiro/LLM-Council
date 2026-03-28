@@ -1,0 +1,20 @@
+Council AI API Endpoints
+
+Base URL
+- Local: http://localhost:8000
+
+Endpoints
+- GET / 
+  Serves the web UI.
+
+- POST /api/council
+  Body: {"message": "your prompt"}
+  Returns: winner, winner_response, all_responses, scores, detailed_votes, debug_rankings.
+  Notes: Each call updates lifetime scores in memory.
+
+- GET /api/config
+  Returns the configured agents from config.json.
+
+- GET /api/scores
+  Returns lifetime scores accumulated since the server started.
+  Notes: This is in-memory only and resets on server restart.

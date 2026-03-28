@@ -1,0 +1,20 @@
+Council AI - Quick Start
+
+INSTALLATION:
+1. pip install -r requirements.txt
+
+STARTUP:
+1. Ensure llama.cpp servers running on 10.0.0.9 ports 8080, 8081, 8082
+2. python main.py
+3. Open http://localhost:8000
+
+CONFIG:
+Edit config.json to change endpoints, agents, or model names.
+
+USAGE:
+Type a prompt, press Enter or click Send.
+Council AI will:
+1. Send prompt to all 3 agents
+2. Each agent ranks the others' responses
+3. Borda count determines winner
+4. Winner displayed with voting breakdown

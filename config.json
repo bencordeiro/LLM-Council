@@ -1,0 +1,36 @@
+{
+  "agents": [
+    {
+      "name": "Agent Alpha",
+      "endpoint": "http://10.0.0.9:8080/v1/chat/completions",
+      "model": "",
+      "enabled": true
+    },
+    {
+      "name": "Agent Beta",
+      "endpoint": "http://10.0.0.9:8081/v1/chat/completions",
+      "model": "",
+      "enabled": true
+    },
+    {
+      "name": "Agent Gamma",
+      "endpoint": "http://10.0.0.9:8082/v1/chat/completions",
+      "model": "",
+      "enabled": true
+    },
+    {
+      "name": "Agent Delta",
+      "endpoint": "http://10.0.0.9:8083/v1/chat/completions",
+      "model": "",
+      "enabled": true
+    },
+    {
+      "name": "Agent Epsilon",
+      "endpoint": "http://10.0.0.9:8084/v1/chat/completions",
+      "model": "",
+      "enabled": false
+    }
+  ],
+  "system_prompt": "You are a helpful AI assistant. Provide accurate, clear, and helpful responses.",
+  "scoring_prompt": "You are a fair judge in a democratic council. Rank responses by overall correctness and quality. Also consider conciseness and clarity."
+}
